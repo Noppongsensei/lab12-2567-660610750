@@ -4,7 +4,6 @@ import { useContext } from "react";
 
 export const Header = () => {
   const { theme } = useContext(ThemeContext);
-  //This is an example of how to consume LangContext
   const { lang } = useContext(LangContext);
 
   return (

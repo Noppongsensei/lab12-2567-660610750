@@ -51,7 +51,6 @@ export default function Home() {
       },
     },
   };
-
   const [theme, setTheme] = useState(THEMES.LIGHT);
   const [lang, setLang] = useState(LANGS.EN);
 
@@ -66,6 +65,7 @@ export default function Home() {
     <div
       style={{
         backgroundColor: theme.bgColor,
+        color: theme.fgColor,
         minHeight: "100vh",
       }}
     >
@@ -78,7 +78,7 @@ export default function Home() {
           <Controller />
         </LangContext.Provider>
       </ThemeContext.Provider>
-      <Footer year="2023" fullName="Chayanin Suatap" studentId="660610999" />
+      <Footer year="2024" fullName="Noppong Anakhaphruek" studentId="660610750" />
     </div>
   );
 }
